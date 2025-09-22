@@ -426,9 +426,12 @@ section h2 {
     text-align: center;
   }
   .nav-container {
-    flex-direction: column;
-    gap: 1rem;
-  }
+    flex-direction: row;          /* keep in a row */
+    justify-content: space-between; /* spread hamburger and logo */
+    align-items: center; 
+    gap: 0; 
+}
+
   .nav-links {
     justify-content: center;
   }
